@@ -1,0 +1,49 @@
+/* Style global pour le corps de la page */
+body {
+  font-family: Arial, sans-serif; /* Police de caractères */
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Alignement vertical des éléments enfants */
+  justify-content: center; /* Centrer verticalement */
+  align-items: center; /* Centrer horizontalement */
+  height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
+  background: linear-gradient(to bottom, #3498db, #000); /* Dégradé du bleu au noir en arrière-plan */
+  color: whitesmoke; /* Couleur du texte */
+}
+
+/* Style pour les titres */
+h2 {
+  margin-bottom: 20px; /* Marge inférieure pour espacement */
+}
+
+/* Style pour le formulaire */
+form {
+  max-width: 400px; /* Largeur maximale du formulaire */
+  width: 100%; /* Largeur pleine */
+  padding: 20px; /* Espacement intérieur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère autour du formulaire */
+  background-color: white; /* Fond blanc du formulaire */
+  border-radius: 8px; /* Coins arrondis */
+  color: black; /* Couleur du texte dans le formulaire */
+}
+
+/* Style pour les champs de saisie et le menu déroulant */
+input, select {
+  width: 100%; /* Remplir la largeur du conteneur parent */
+  padding: 8px; /* Espacement intérieur */
+  margin-bottom: 10px; /* Marge inférieure pour espacement entre les éléments */
+  border-radius: 8px; /* Coins arrondis */
+}
+
+/* Style spécifique pour le bouton de soumission */
+input[type="submit"] {
+  background-color: #4caf50; /* Couleur de fond verte */
+  color: white; /* Couleur du texte blanc */
+  cursor: pointer; /* Curseur de souris indiquant une action interactive */
+}
+
+/* Style pour les messages d'erreur */
+.error-message {
+  color: red; /* Couleur du texte en rouge */
+  margin-bottom: 10px; /* Marge inférieure pour espacement */
+}
